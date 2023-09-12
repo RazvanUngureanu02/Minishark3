@@ -1,0 +1,16 @@
+
+.gradient {
+    /*background: linear-gradient(-45deg, rgb(45, 39, 39), rgb(65, 53, 67), rgb(143, 67, 238), rgb(240, 235, 141));*/
+    background: #ebebeb;
+    border-radius: 0.2rem;
+    animation: gradient 15s ease infinite; /* updated line */
+}
+
+
+.gradient-dark {
+    background:#333;
+    border-radius: 0.2rem;
+    animation: gradient 15s ease infinite; /* updated line */
+}
+
+/* gradient - end */

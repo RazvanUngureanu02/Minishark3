@@ -1,0 +1,25 @@
+{
+  "name": "minishark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . MiniShark --platform=win32 --arch=x64 --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.2.1",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "cmake-js": "^7.2.1",
+    "node-addon-api": "^6.0.0",
+    "node-ipc": "^11.1.0",
+    "promise-worker": "^2.0.1",
+    "uv": "^1.4.0",
+    "ws": "^8.13.0"
+  }
+}

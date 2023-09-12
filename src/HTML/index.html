@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minishark</title>
+    
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/uploadFile.css">
+    <link rel="stylesheet" href="../CSS/themePicker.css">
+    <link rel="stylesheet" href="../CSS/gradients.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/c859b80f7e.js" crossorigin="anonymous"></script>
+    <script src="../JS/scripts.js"></script>
+    <script src="../JS/uploadFile.js"></script>
+    <script src="../JS/themePicker.js"></script>
+    <script src="../JS/tabs.js"></script>
+    <script src="../JS/liveCapture.js"></script>
+    <script src="../JS/electronFunctions.js"></script>
+    <script src="../JS/movePackets.js"></script>
+    <script src="../JS/deletePackets.js"></script>
+    <script src="../JS/filters.js"></script>
+
+    <script>
+        const { startWorker, stopWorker } = window.api;
+    
+        function startCapture(index, interfaceIndex) {
+          startWorker(index, interfaceIndex);
+        }
+    
+        function stopCapture(index) {
+          stopWorker(index);
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="tab-container">
+    <div class="tab-list"></div>
+    </div>
+
+    
+    <div id="classic"></div>
+
+</body>
+
+</html>

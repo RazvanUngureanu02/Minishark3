@@ -1,0 +1,19 @@
+{
+  "name": "minishark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.2.1",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "node-addon-api": "^6.0.0"
+  }
+}
